@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <h1 onClick={()=>setCount(count+1)} className='text-5xl font-bold'>TAILWIND CHECK {count} </h1>
+        <h1 onClick={()=>setCount(count+1)} className='text-5xl font-bold text-red-800'>TAILWIND CHECK {count} </h1>
         </div>
     </>
   )
